@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE=LGDan/anrpc
+IMAGE=lgdan/anrpc
 DT=$(date +"%Y%m%d%H%M%S")
 
 docker build . --tag $IMAGE:$DT
